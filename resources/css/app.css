@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --cr-dorado: #7e6c59;
+    --cr-gris-oscuro: #202020;
+}
+
+.guest-background {
+    background-color: var(--cr-gris-oscuro);
+}
+
+.form-background {
+	background-color: var(--cr-dorado);
+}
+
+.app_logo {
+	width: 10rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+:root {
+    --cr-dorado: #c0a588;
+    --cr-gris-oscuro: #202020;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	height: 100%;
+}
+
+.index-body {
+	background-color: var(--cr-gris-oscuro);
+}
+
+.nav-background {
+    background-color: var(--cr-gris-oscuro);
+}
+
+.app_logo {
+	width: 3.5rem;
+}
+
+.nav-logo {
+    width: 3.5rem;
+}
+
+.service-button-container {
+	align-self: flex-start;
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+}
+
+.service-button {
+	text-decoration: none;
+	color: #fff;
+	height: 100%;
+	padding: 0.5rem;
+}
+
+.service-button:hover {
+	background-color: rgba(192, 165, 136, 0.2);
+}
+
+.shopping-cart-link {
+    text-decoration: none;
+    margin: 0rem 0.5rem;
+}
+
+.btn-log-options {
+    color: var(--cr-gris-oscuro);
+    background-color: var(--cr-dorado);
+    border-color: var(--cr-dorado);
+}
+.btn-log-options:hover {
+    color: var(--cr-gris-oscuro);
+    background-color: var(--cr-dorado);
+    border-color: var(--cr-dorado);
+}
+
+.btn-log-options:focus {
+    color: var(--cr-gris-oscuro);
+    background-color: var(--cr-dorado);
+    border-color: var(--cr-dorado);
+    box-shadow: 0 0 0 0.2rem rgba(192, 165, 136, 0.5);
+}
+
+.btn-log-options:disabled {
+    color: var(--cr-gris-oscuro);
+    background-color: var(--cr-dorado);
+    border-color: var(--cr-dorado);
+}
+
+.btn-log-options:active {
+	color: #fff;
+}
+
+.nav-button {
+    background-color: #202020;
+    color: #c0a588;
+}
+
+.greeting {
+	height: fit-content;
+}
+
+.banner {
+    height: 250px;
+    background: transparent no-repeat center;
+    background-size: cover;
+    height: 29rem;
+    position: relative;
+}
+
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	font-family: "Playfair Display", serif;
+}
+
+.banner-content h1 {
+    font-size: 5rem;
+	font-weight: 600;
+}
+
+.banner-content p {
+	font-size: 2rem;
+    font-weight: 400;
+}
+
+.aside_store {
+	width: fit-content;
+	height: 100%;
+	border-left: 3px solid var(--cr-gris-oscuro);
+    border-right: 3px solid var(--cr-gris-oscuro);
+}
+
+.store_logo {
+	width: 20rem;
+	height: 20rem;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.card-img {
+	background: transparent no-repeat center;
+	background-size: cover;
+	height: 20rem;
+	position: relative;
+}
+
+.store_content {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
